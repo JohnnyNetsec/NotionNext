@@ -63,6 +63,13 @@ class MyDocument extends Document {
 
           {/* 预先设置深色模式，避免闪烁 */}
           <script dangerouslySetInnerHTML={{ __html: darkModeScript }} />
+
+          {/* Add your Monetag verification tag and ad codehere */}
+          <meta name="monetag" content="c7c5a128a3c13478ea4d765cde20c09f" />
+          <script src="https://quge5.com/88/tag.min.js" data-zone="222035" async data-cfasync="false"></script>
+
+          {/* Add your Cloudflare monitor code here */}
+          <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "aad55d4e0889474ebbe652ed7d64061c"}'></script>
         </Head>
 
         <body>
