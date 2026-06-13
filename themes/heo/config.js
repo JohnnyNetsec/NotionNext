@@ -4,12 +4,13 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2022-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2023-02-21', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: 'Welcome to NetSec Effective Thinking Notes Site!', url: 'https://blog.51sec.org' },
-    { title: 'Get more ...', url: 'https://sites.51sec.org' }
+    { title: 'Check Shares ', url: 'https://alist.51sec.org/' }
+    { title: 'Get more sites ...', url: 'https://sites.51sec.org' }
   ],
 
   // 英雄区左右侧组件颠倒位置
