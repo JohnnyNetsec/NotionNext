@@ -20,6 +20,7 @@ import ExternalPlugins from '@/components/ExternalPlugins'
 import SEO from '@/components/SEO'
 import { zhCN } from '@clerk/localizations'
 import dynamic from 'next/dynamic'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 // import { ClerkProvider } from '@clerk/nextjs'
 const ClerkProvider = dynamic(() =>
   import('@clerk/nextjs').then(m => m.ClerkProvider)
@@ -100,6 +101,7 @@ const MyApp = ({ Component, pageProps }) => {
       ) : (
         content
       )}
+      <SpeedInsights />
     </>
   )
 }
